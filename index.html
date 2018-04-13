@@ -47,13 +47,17 @@
     }
 
     footer {
-      display: flex;
+     
+      border-top: 1px solid black;
+    }
+    
+    .footer-links {
+       display: flex;
       flex-direction: row;
       justify-content:space-between;
       width: 60%;
       margin-left: 4rem;
       margin-right: 4rem;
-      border-top: 1px solid black;
     }
   </style>
 
@@ -103,10 +107,12 @@
   </div>
 
   <footer>
+    <div class="footer-links">
     <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Fun+facts+about+Echidnas%21">
       Tweet</a>
     <div class="fb-share-button" data-href="https://northsouth.github.io/echidnas/" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnorthsouth.github.io%2Fechidnas%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-  </footer>
+    </div>
+      </footer>
 </body>
 
 </html>
